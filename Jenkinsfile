@@ -18,6 +18,7 @@ pipeline {
 
         stage('Build PES1UG21CS520-1 Project') {
             steps {
+                sh "asdfgyuifghjkl;lkjhgfghjmk,bgty"
                 echo 'Triggering PES1UG21CS520-1 project build...'
                 build job: 'PES1UG21CS520-1'
             }
